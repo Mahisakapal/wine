@@ -4,4 +4,4 @@ matplotlib
 seaborn
 numpy
 cloud-ml-common>=0.2.2
-cloud-ml-sdk 0.3.71
+cloud-ml-sdk=0.3.71
