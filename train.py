@@ -1,9 +1,10 @@
 import pandas as pd 
-from scikit-learn.model_selection import train_test_split
-from scikit-learn.ensemble import RandomForestRegressor
+from sklearn.model_selection import train_test_split
+from sklearn.ensemble import RandomForestRegressor
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
+
 # Set random seed
 seed = 42
 
@@ -81,5 +82,4 @@ plt.ylim((2.5,8.5))
 plt.xlim((2.5,8.5))
 
 plt.tight_layout()
-plt.savefig("residuals.png",dpi=120) 
-
+plt.savefig("residuals.png",dpi=120)
